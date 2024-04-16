@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Driver {
     public static void printChatHistoryLog(ChatServer server) {
-        System.out.println("\n====== Server Chat History Log ======");
+        System.out.println("\n====== Print Server Chat History Log ======");
         for (User user: server.getUsers()) {
             System.out.println(user);
         }
@@ -24,7 +24,7 @@ public class Driver {
         server.register(boi);
         server.register(nhu);
 
-        System.out.println("\n---------- Chating function -----------------");
+        System.out.println("\n---------- Chatting function -----------------");
 
         server.sendMessage(dat, "Hi Boi, nice to meet you!", boi);
         server.sendMessage(dat, "Hi everyone, I am new student in the class", boi, nhu);
@@ -37,7 +37,9 @@ public class Driver {
 
         System.out.println("\n------------ Blocking function -----------------");
 
-        server.blockUser(dat, nhu);
+
+        // "Nhu" user block "Dat" user
+        server.blockUser(nhu, dat);
         server.sendMessage(dat, "Hi Nhu, I don't want to talk to you", nhu);
         server.sendMessage(boi, "Do you want to play badminton ?", nhu, dat);
         printChatHistoryLog(server);

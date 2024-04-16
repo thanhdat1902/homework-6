@@ -47,7 +47,8 @@ public class ChatServer {
     public void sendMessage(User sender, String message, User ... recipients) {
         Message newMessage = new Message(sender, new ArrayList<>(List.of(recipients)), message);
         for (User recipient : recipients) {
-            if (recipient != sender && !checkUserBlocked(sender.getId(), recipient.getId())) {
+            // Both sender and recipient cannot block each other to be able to send message
+            if (recipient != sender && !checkUserBlocked(recipient.getId(), sender.getId()) && !checkUserBlocked(sender.getId(), recipient.getId())) {
                 recipient.receiveMessage(newMessage);
             } else {
                 System.out.println(String.format("System: [%s] cannot send message to blocked user", sender.getName()));

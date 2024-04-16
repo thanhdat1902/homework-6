@@ -63,6 +63,6 @@ public class Message {
             recipientStringLog+= ",";
         }
 
-        return String.format("[ Sender:[%s],Recipients:[%s]-time:%s: '%s']",sender.getName(),recipientStringLog.substring(0, recipientStringLog.length()-1),timestamp,message);
+        return String.format("[ From:[%s],To:[%s],at:%s: '%s']",sender.getName(),recipientStringLog.substring(0, recipientStringLog.length()-1),timestamp,message);
     }
 }
