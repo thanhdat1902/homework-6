@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fcca034-c064-41a1-ae37-25856e8a89a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ChatApplication/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ChatApplication/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ChatApplication/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ChatApplication/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="JUnit.CompleteUnitTest">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Driver" />
       <module name="Homework-6" />
@@ -123,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
         <item itemvalue="JUnit.CompleteUnitTest" />
+        <item itemvalue="Application.Driver" />
         <item itemvalue="JUnit.MessageMementoTest.stateMementoTest" />
         <item itemvalue="JUnit.MessageMementoTest.setStateMementoTest" />
         <item itemvalue="JUnit.IterableTest.iterableTest" />
@@ -147,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712930163358</updated>
       <workItem from="1712930164730" duration="1022000" />
-      <workItem from="1713135505137" duration="22224000" />
+      <workItem from="1713135505137" duration="22513000" />
     </task>
     <servers />
   </component>
